@@ -1,0 +1,13 @@
+meta1 0.077 Sccnolog1_eq.rst
+meta2 0.077 Sccnolog2_eq.rst
+meta3 0.077 Sccnolog3_eq.rst
+meta4 0.077 Sccnolog4_eq.rst
+meta5 0.077 Sccnolog5_eq.rst
+meta6 0.077 Sccnolog6_eq.rst
+meta7 0.077 Sccnolog7_eq.rst
+meta8 0.077 Sccnolog8_eq.rst
+meta9 0.077 Sccnolog9_eq.rst
+meta10 0.077 Sccnolog10_eq.rst
+meta11 0.077 Sccnolog11_eq.rst
+meta12 0.077 Sccnolog12_eq.rst
+meta13 0.077 Sccnolog13_eq.rst

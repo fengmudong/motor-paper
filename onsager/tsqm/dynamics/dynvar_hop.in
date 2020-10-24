@@ -1,0 +1,19 @@
+ &DYNVAR
+ IOUT    =           1,
+ NSTEP   =          45000,
+ DT      =  1.0E-004,
+ NOROT   = F,
+ NOTRA   = F,
+ RESTART = T,
+ FSAV    = 10,
+ WRITE_VEL = T,
+ WRITE_REST = F,
+ TULLY_HOP       = T,
+ ADAPT_MAP = 90,
+ ADAPT_TRIES = 10,
+ RND_GEN = PM_BD,
+ FOL_STAT = F,
+ CUTHOP = 10,
+ TEMP0 = 90.0,
+ G0 = 0.2
+ /

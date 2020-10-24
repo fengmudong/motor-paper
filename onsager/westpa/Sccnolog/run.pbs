@@ -1,0 +1,15 @@
+#!/bin/bash
+#PBS -l walltime=300:00:00,nodes=1:ppn=16:gpu -q home-gibbs -A mgilson-group
+#PBS -j oe
+#PBS -N westpa_Sccnolog
+
+source ~/.condainit
+source activate westpa-2017.10
+cd /projects/gilson-onsager/mufeng/westpa/Sccnolog/
+source env.sh
+
+# Clean up
+rm -f west.log
+
+# Run w_run
+$WEST_ROOT/bin/w_run --work-manager processes "$@" &> west.log

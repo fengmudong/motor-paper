@@ -1,0 +1,5 @@
+loadamberparams fbO.frcmod
+MOL = loadmol2 /projects/gilson-onsager/mufeng/fb/fbO_ccbox/targets/scan_dihrot/fbO.mol2
+x = loadpdb conf.pdb
+saveamberparm x fbO.prmtop fbO.inpcrd
+quit

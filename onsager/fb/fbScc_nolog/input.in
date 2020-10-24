@@ -1,0 +1,26 @@
+$options
+forcefield free-params.txt fbScc.frcmod
+jobtype newton
+writechk fbScc.fbchk
+MAXSTEP 400
+TRUST0 100
+CONVERGENCE_OBJECTIVE 0.001
+$end
+
+$target
+type abinitio_amber
+name scan_dihrot
+engine amber
+force 1
+writelevel 2
+amber_leapcmd fbScc.leap
+$end
+
+$target
+type abinitio_amber
+name scan_dihpyr
+engine amber
+force 1
+writelevel 2
+amber_leapcmd fbScc.leap
+$end

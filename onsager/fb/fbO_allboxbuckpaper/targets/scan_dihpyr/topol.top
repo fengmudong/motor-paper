@@ -1,0 +1,7 @@
+#include "fbO.itp"
+
+[ system ]
+molecular motor molecule in vacuum
+
+[ molecules ]
+MOL 1

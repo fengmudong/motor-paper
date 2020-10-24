@@ -1,0 +1,97 @@
+Remark line goes here
+MASS
+ca 12.010        0.360
+os 16.000        0.465
+cc 12.010        0.360
+cf 12.010        0.360
+c3 12.010        0.878
+ha 1.008         0.135
+hc 1.008         0.135
+
+BOND
+ca-ca  2.590138225028e+02   1.396405123979e+00 ; PRM 1 2
+ca-cc  2.205950929814e+02   1.492516373573e+00 ; PRM 1 2
+ca-ha  3.169838506603e+02   1.086165787025e+00 ; PRM 1 2
+ca-os  2.804203220195e+02   1.366361747392e+00 ; PRM 1 2
+cc-cf  3.361168273045e+02   1.355539095784e+00 ; PRM 1 2
+ca-cf  1.996523571734e+02   1.454439782925e+00 ; PRM 1 2
+c3-cf  1.867204001070e+02   1.511364029542e+00 ; PRM 1 2
+c3-ca  2.497896237923e+02   1.508381735479e+00 ; PRM 1 2
+c3-c3  1.533984285243e+02   1.526790501680e+00 ; PRM 1 2
+c3-hc  2.964670020652e+02   1.095440741456e+00 ; PRM 1 2
+
+ANGLE
+ca-ca-ca   4.376927807629e+01     1.272327041438e+02 ; PRM 1 2
+ca-ca-ha   1.965528271926e+01     1.177529211838e+02 ; PRM 1 2
+ca-ca-os   6.327590349693e+01     1.160145509026e+02 ; PRM 1 2
+ca-cc-ca   3.877671556918e+01     1.369681740462e+02 ; PRM 1 2
+ca-cc-cf   4.141056756121e+01     1.305556137768e+02 ; PRM 1 2
+ca-ca-cc   4.381071947805e+01     1.285808585029e+02 ; PRM 1 2
+ca-os-ca   6.442664331878e+01     1.110747368807e+02 ; PRM 1 2
+ca-cf-cc   4.223074626393e+01     1.293382451998e+02 ; PRM 1 2
+c3-cf-cc   4.331012708202e+01     1.309632303403e+02 ; PRM 1 2
+ca-ca-cf   6.394182249955e+01     1.285950441033e+02 ; PRM 1 2
+c3-c3-cf   3.960279260433e+01     1.118737616596e+02 ; PRM 1 2
+cf-c3-hc   2.739634155811e+01     1.078346803168e+02 ; PRM 1 2
+c3-cf-ca   4.242208042917e+01     1.312754800857e+02 ; PRM 1 2
+c3-ca-ca   4.972967455805e+01     1.298023157896e+02 ; PRM 1 2
+c3-c3-ca   4.862447865232e+01     1.120014549725e+02 ; PRM 1 2
+ca-c3-hc   3.070158334338e+01     1.107557182540e+02 ; PRM 1 2
+c3-c3-c3   4.655975403592e+01     1.128775203757e+02 ; PRM 1 2
+c3-c3-hc   2.349526167471e+01     1.094327510683e+02 ; PRM 1 2
+hc-c3-hc   1.714014907798e+01     1.068880217693e+02 ; PRM 1 2
+
+DIHE
+ca-ca-ca-ca   4   7.510018598133e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:10.0']**2
+ca-ca-ca-ha   4   6.853161065966e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:11.0']**2
+ca-ca-os-ca   2    2.308030952384e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:12.0']**2
+ca-ca-cc-ca   1    1.874236608773e-01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:13.0']**2
+ca-cc-cf-ca   1    3.698869855271e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:14.0']**2
+ca-cc-cf-c3   1    4.266902695174e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:15.0']**2
+ca-ca-ca-os   4   2.283686505143e+01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:16.0']**2
+ca-ca-cc-cf   1    4.400251166974e-01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:17.0']**2
+ca-ca-ca-cc   4   8.146287163348e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:18.0']**2
+cc-ca-ca-os   4   3.793838170193e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:19.0']**2
+ha-ca-ca-os   4   1.981551296932e+01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:20.0']**2
+cc-ca-ca-ha   4   3.649480648022e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:21.0']**2
+ca-ca-cf-cc   1    1.306331902409e-01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:22.0']**2
+c3-c3-cf-cc   1    5.567000698530e-01         0.000           3.000 ; EVAL 2 PRM['free-params.txt:23.0']**2
+hc-c3-cf-cc   1    8.399868424134e-01       180.000          -3.000 ; EVAL 2 PRM['free-params.txt:24.0']**2
+hc-c3-cf-cc   1    3.279773463505e-01         0.000           1.000 ; EVAL 2 PRM['free-params.txt:25.0']**2
+ca-ca-ca-cf   4   3.084015413977e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:26.0']**2
+c3-ca-ca-cf   4   4.471638439027e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:27.0']**2
+ca-c3-c3-cf   9    7.878886349049e+00         0.000           3.000 ; EVAL 2 PRM['free-params.txt:28.0']**2
+cf-c3-c3-hc   9    8.175634015519e-01         0.000           3.000 ; EVAL 2 PRM['free-params.txt:29.0']**2
+c3-c3-cf-ca   1    5.670784329139e-01         0.000           3.000 ; EVAL 2 PRM['free-params.txt:30.0']**2
+hc-c3-cf-ca   1    4.360633340691e-03       180.000          -3.000 ; EVAL 2 PRM['free-params.txt:31.0']**2
+hc-c3-cf-ca   1    1.444271979147e+00         0.000           1.000 ; EVAL 2 PRM['free-params.txt:32.0']**2
+c3-c3-ca-ca   1    8.806185163406e-01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:33.0']**2
+hc-c3-ca-ca   1    2.114275984934e-29       180.000           2.000 ; EVAL 2 PRM['free-params.txt:34.0']**2
+ca-ca-cf-c3   1    1.175697125922e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:35.0']**2
+c3-ca-ca-ca   4   1.199892758910e+01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:36.0']**2
+c3-c3-c3-ca   9    4.007876207656e+00         0.000           3.000 ; EVAL 2 PRM['free-params.txt:37.0']**2
+ca-c3-c3-hc   9    4.402912046158e-07         0.000           3.000 ; EVAL 2 PRM['free-params.txt:38.0']**2
+c3-ca-ca-ha   4   1.290354419496e+00       180.000           2.000 ; EVAL 2 PRM['free-params.txt:39.0']**2
+c3-c3-c3-hc   1    1.498404790840e-01         0.000           3.000 ; EVAL 2 PRM['free-params.txt:40.0']**2
+ha-ca-ca-ha   4   1.342182873635e+01       180.000           2.000 ; EVAL 2 PRM['free-params.txt:41.0']**2
+hc-c3-c3-hc   1    1.778846753614e-01         0.000           3.000 ; EVAL 2 PRM['free-params.txt:42.0']**2
+
+IMPROPER
+ca-ca-ca-cc         1.314576323865e+00          180.0         2.0 ; EVAL 1 PRM['free-params.txt:2.0']**2
+ca-ca-ca-ha         1.721382505636e+00          180.0         2.0 ; EVAL 1 PRM['free-params.txt:3.0']**2
+ca-ca-ca-os         7.874625226230e-03          180.0         2.0 ; EVAL 1 PRM['free-params.txt:4.0']**2
+ca-ca-cc-cf         2.438436898022e+00          180.0         2.0 ; EVAL 1 PRM['free-params.txt:5.0']**2
+c3-ca-cf-cc         3.049147488094e+00          180.0         2.0 ; EVAL 1 PRM['free-params.txt:6.0']**2
+ca-ca-ca-cf         1.618371889588e-03          180.0         2.0 ; EVAL 1 PRM['free-params.txt:7.0']**2
+ca-ca-ca-ca         3.341480169782e-03          180.0         2.0 ; EVAL 1 PRM['free-params.txt:8.0']**2
+c3-ca-ca-ca         3.669212828234e+00          180.0         2.0 ; EVAL 1 PRM['free-params.txt:9.0']**2
+
+NONBON
+  ca          1.811037089387e+00  9.199828654127e-02 ; PRM 1 2
+  os          1.701766493744e+00  6.685236925235e-02 ; PRM 1 2
+  cc          1.927936820403e+00  1.026382042407e-01 ; PRM 1 2
+  cf          1.940076442815e+00  1.053958063464e-01 ; PRM 1 2
+  c3          1.837334289095e+00  1.021479257960e-01 ; PRM 1 2
+  ha          1.391134431494e+00  7.494380152148e-03 ; PRM 1 2
+  hc          1.379290593944e+00  1.288129437140e-02 ; PRM 1 2
+

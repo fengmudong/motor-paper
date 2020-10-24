@@ -1,0 +1,12 @@
+ &DYNVAR
+ IOUT    =           1,
+ NSTEP   =          20000,
+ DT      =  0.5E-003,
+ TEMP0   =   90.0     ,
+ NOROT   = F,
+ NOTRA   = F,
+ WRITE_VEL       = T,
+ FSAV    = 10,
+ RND_GEN = PM_BD,
+ G0 = 2.0
+ /

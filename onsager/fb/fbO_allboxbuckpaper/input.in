@@ -1,0 +1,79 @@
+$options
+forcefield free-params.txt fbO.itp
+jobtype newton
+writechk fbO.fbchk
+MAXSTEP 400
+PENALTY_ADDITIVE 0.0001
+penalty_type box
+penalty_power 12.0
+TRUST0 1.0
+CONVERGENCE_OBJECTIVE 0.001
+gmxpath /opt/gromacs/bin/
+gmxsuffix _mpi
+
+priors
+BONDSK                               : 20000
+ANGLESK                              : 40
+BONDSB                               : 0.01
+ANGLESB                              : 20
+VDW_BHAMB                            : 2
+free-params.txt:2.0 : 3e0
+free-params.txt:3.0 : 3e0
+free-params.txt:4.0 : 3e0
+free-params.txt:5.0 : 3e0
+free-params.txt:6.0 : 3e0
+free-params.txt:7.0 : 3e0
+free-params.txt:8.0 : 3e0
+free-params.txt:9.0 : 3e0
+free-params.txt:10.0 : 4e0
+free-params.txt:11.0 : 4e0
+free-params.txt:12.0 : 4e0
+free-params.txt:13.0 : 4e0
+free-params.txt:14.0 : 4e0
+free-params.txt:15.0 : 4e0
+free-params.txt:16.0 : 4e0
+free-params.txt:17.0 : 4e0
+free-params.txt:18.0 : 4e0
+free-params.txt:19.0 : 4e0
+free-params.txt:20.0 : 4e0
+free-params.txt:21.0 : 4e0
+free-params.txt:22.0 : 4e0
+free-params.txt:23.0 : 4e0
+free-params.txt:24.0 : 4e0
+free-params.txt:25.0 : 4e0
+free-params.txt:26.0 : 4e0
+free-params.txt:27.0 : 4e0
+free-params.txt:28.0 : 4e0
+free-params.txt:29.0 : 4e0
+free-params.txt:30.0 : 4e0
+free-params.txt:31.0 : 4e0
+free-params.txt:32.0 : 4e0
+free-params.txt:33.0 : 4e0
+free-params.txt:34.0 : 4e0
+free-params.txt:35.0 : 4e0
+free-params.txt:36.0 : 4e0
+free-params.txt:37.0 : 4e0
+free-params.txt:38.0 : 4e0
+free-params.txt:39.0 : 4e0
+free-params.txt:40.0 : 4e0
+free-params.txt:41.0 : 4e0
+free-params.txt:42.0 : 4e0
+/priors
+$end
+
+$target
+type abinitio_gmx
+name scan_dihrot
+engine gmx
+force 1
+writelevel 2
+$end
+
+$target
+type abinitio_gmx
+name scan_dihpyr
+engine gmx
+force 1
+writelevel 2
+$end
+

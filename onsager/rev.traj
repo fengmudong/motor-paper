@@ -1,0 +1,68 @@
+parm strip.Snolog1.prmtop
+
+trajin strip.Snolog1.nc 0 last
+trajout rev.Snolog1.nc
+run
+clear trajin
+
+trajin strip.Snolog2.nc 0 240000
+trajout rev.Snolog2.nc
+run
+clear trajin
+
+trajin strip.Snolog3.nc 0 100
+trajout rev.Snolog3.nc
+run
+clear trajin
+
+trajin strip.Snolog4.nc 0 270000
+trajout rev.Snolog4.nc
+run
+clear trajin
+
+trajin strip.Snolog5.nc 0 450000
+trajout rev.Snolog5.nc
+run
+clear trajin
+
+trajin strip.Snolog6.nc 0 last
+trajout rev.Snolog6.nc
+run
+clear trajin
+
+trajin strip.Snolog7.nc 0 last
+trajout rev.Snolog7.nc
+run
+clear trajin
+
+trajin strip.Snolog8.nc 0 780000
+trajout rev.Snolog8.nc
+run
+clear trajin
+
+trajin strip.Snolog9.nc 0 1000
+trajout rev.Snolog9.nc
+run
+clear trajin
+
+trajin strip.Snolog10.nc 0 620000
+trajout rev.Snolog10.nc
+run
+clear trajin
+
+trajin strip.Snolog11.nc 0 1030000
+trajout rev.Snolog11.nc
+run
+clear trajin
+
+trajin strip.Snolog12.nc 0 650000
+trajout rev.Snolog12.nc
+run
+clear trajin
+
+trajin strip.Snolog13.nc 0 920000
+trajout rev.Snolog13.nc
+run
+clear trajin
+
+quit

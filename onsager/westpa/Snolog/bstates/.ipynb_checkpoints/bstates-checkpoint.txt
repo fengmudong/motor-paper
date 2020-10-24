@@ -1,0 +1,13 @@
+meta1 0.077 Snolog1_eq.rst
+meta2 0.077 Snolog2_eq.rst
+meta3 0.077 Snolog3_eq.rst
+meta4 0.077 Snolog4_eq.rst
+meta5 0.077 Snolog5_eq.rst
+meta6 0.077 Snolog6_eq.rst
+meta7 0.077 Snolog7_eq.rst
+meta8 0.077 Snolog8_eq.rst
+meta9 0.077 Snolog9_eq.rst
+meta10 0.077 Snolog10_eq.rst
+meta11 0.077 Snolog11_eq.rst
+meta12 0.077 Snolog12_eq.rst
+meta13 0.077 Snolog13_eq.rst
