@@ -1,0 +1,2 @@
+Dihedral restraint, linear penalty energy except a tiny interval. See Amber18 manual P511
+&rst iat=3043,3015,3014,3029 r1=79, r2=80, r3=80, r4=81, rk2=38., rk3=0., /

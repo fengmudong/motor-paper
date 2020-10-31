@@ -1,11 +1,11 @@
 #!/bin/bash
 #PBS -l walltime=300:00:00,nodes=1:ppn=16:gpu -q home-gibbs -A mgilson-group
 #PBS -j oe
-#PBS -N westpa_Snolog
+#PBS -N westpa_Snolog_dihedralrst
 
 source ~/.condainit
 source activate westpa-2017.10
-cd /projects/gilson-onsager/mufeng/westpa/Snolog/
+cd /projects/gilson-onsager/mufeng/westpa/Snolog_dihedralrst/
 source env.sh
 
 # Clean up
