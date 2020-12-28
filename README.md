@@ -1,4 +1,4 @@
-# Repository of Files to reproduce calculations in paper "Multiscale Molecular Dynamic Modelling of MHz Alkene Molecular Motors" of Mudong Feng et al.
+# Repository of Files to reproduce calculations in paper "Mechanistic Analysis of Light-Driven Overcrowded Alkene-Based Molecular Motors by Multiscale Molecular Simulations" of Mudong Feng and Michael K. Gilson
 
 In this repository, each directory often have a .md file explaining the contents of the directory. Github should render these .md files in the browser.
 
