@@ -1,3 +1,7 @@
+# Conda Environment for Notebooks
+To prepare the python libraries (numerical packages like `numpy`, plotting packages like `matplotlib` and `plotly`) used in the notebooks, you can use `conda` to import the environment files I exported: 
+`env_main.txt` and `env_newer_plotly.txt`
+
 # Notebooks about classical MD
 
 `Pucker.ipynb`  
